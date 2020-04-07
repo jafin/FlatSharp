@@ -10,9 +10,11 @@ before_build:
 configuration:
   - Release
 
-build:
-  project: src\FlatSharp.sln
-#  verbosity: detailed
+#build:
+  #project: src\FlatSharp.sln
+
+build_script:
+  - dotnet build src\FlatSharp.sln
 
 # scripts to run after build (working directory and environment changes are persisted from the previous steps)
 after_build:
