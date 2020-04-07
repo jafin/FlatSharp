@@ -4,6 +4,9 @@ image:
 platform:
   - Any CPU
 
+before_build:
+  - nuget restore
+
 configuration:
   - Release
 
