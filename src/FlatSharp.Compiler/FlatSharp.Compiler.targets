@@ -7,7 +7,7 @@
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(TargetFrameworkIdentifier)' == '.NETFramework' ">
-      <CompilerPath>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)\..\..\tools\net47\FlatSharp.Compiler.exe'))</CompilerPath>
+      <CompilerPath>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)\..\..\tools\net472\FlatSharp.Compiler.exe'))</CompilerPath>
       <CompilerInvocation>$(CompilerPath)</CompilerInvocation>
     </PropertyGroup>
 

@@ -15,16 +15,16 @@
   </metadata>
   <files>
     <file src="_._" target="lib/netcoreapp2.1/" />
-    <file src="_._" target="lib/net47/" />
+    <file src="_._" target="lib/net472/" />
     
     <file src="FlatSharp.Compiler.targets" target="build/netcoreapp2.1/FlatSharp.Compiler.targets" />
-    <file src="FlatSharp.Compiler.targets" target="build/net47/FlatSharp.Compiler.targets" />
+    <file src="FlatSharp.Compiler.targets" target="build/net472/FlatSharp.Compiler.targets" />
     
     <file src="FlatSharp.Compiler.targets" target="tools/" />
     
-    <file src="$AntlrRuntime$\lib\net45\**\*.dll" target="tools/net47" />
-    <file src="$OutDir$\net47\*.dll" target="tools/net47" />
-    <file src="$OutDir$\net47\*.exe" target="tools/net47" />
+    <file src="$AntlrRuntime$\lib\net45\**\*.dll" target="tools/net472" />
+    <file src="$OutDir$\net472\*.dll" target="tools/net472" />
+    <file src="$OutDir$\net472\*.exe" target="tools/net472" />
     
     <file src="$AntlrRuntime$\lib\netstandard1.1\**\*.dll" target="tools/netcoreapp2.1" />
     <file src="$OutDir$\netcoreapp2.1\**.dll" target="tools/netcoreapp2.1" />
