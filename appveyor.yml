@@ -23,5 +23,5 @@ artifacts:
     type: zip
 
 on_failure:
-  - 7z a failure.zip *.*
-  - appveyor PushArtifact failure.zip
+  - 7z a failure.zip *.* -xr!bin -xr!obj -r
+  - appveyor PushArtifact failure.zip    
