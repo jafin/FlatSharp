@@ -12,3 +12,8 @@ configuration:
 
 build:
   project: src\FlatSharp.sln
+
+artifacts:
+  - path: '**\*.*'
+  - name: src
+  - type: zip
