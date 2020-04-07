@@ -10,7 +10,7 @@ before_build:
 configuration:
   - Release
 
-#build:
+build: off
   #project: src\FlatSharp.sln
 
 build_script:
