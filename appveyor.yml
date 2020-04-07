@@ -5,7 +5,7 @@ platform:
   - Any CPU
 
 before_build:
-  - nuget restore
+  - nuget restore src
 
 configuration:
   - Release
